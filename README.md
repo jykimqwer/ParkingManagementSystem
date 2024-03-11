@@ -4,4 +4,4 @@ ParkingManagementSystem
 -------------
 Project name: 무인 주차 관리 시스템   
 Project goal:    
- <img src="https://img.shields.io/badge/python-3776AB?style=flat&logo=python&logoColor=white"/>
+ <img src="https://img.shields.io/badge/python-green?style=flat&logo=python&logoColor=3776AB"/>
