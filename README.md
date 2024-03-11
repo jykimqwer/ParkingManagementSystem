@@ -9,7 +9,7 @@ ParkingManagementSystem
 
 #### **팀 구성**
 | 이름 | 메인 업무 |
-|:--:|:--|
+|:--:|:--:|
 |김다린|python|
 |김준영|C#|
 
