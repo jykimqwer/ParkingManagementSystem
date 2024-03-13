@@ -36,7 +36,5 @@
    * LCD 구현
 
  ### Kanban
- BACKLOG TO-DO IN-PROGRESS COMPLETED
- ===================================
- 카메라 인식                 completed
+
  
