@@ -35,4 +35,8 @@
    * 라즈베리파이에 구현
    * LCD 구현
 
-
+ ### Kanban
+ BACKLOG TO-DO IN-PROGRESS COMPLETED
+ ===================================
+ 카메라 인식                 completed
+ 
