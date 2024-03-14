@@ -39,6 +39,16 @@
 #define STK_VAL 		*(volatile unsigned int*)0xE000E018
 #define STK_CALIB  *(volatile unsigned int*)0xE000E01C
 
+#define SRC_I2C_LCD_H_
+
+#define I2C_LCD_ADDRESS		(0x27 << 1)
+#define BACKLIGHT_ON 			0x08
+
+#define DISPLAY_ON	0x0C
+#define DISPLAY_OFF 0x08
+#define CLEAR_DISPLAY 0x01
+#define RETURN_HOME 0x02
+
 #define ENABLE 0
 /* USER CODE END PD */
 
@@ -53,10 +63,7 @@
 uint8_t rxData;
 
 uint32_t echoTime = 0;
-uint8_t value1 = 0;
-uint8_t cnt1 = 0;
-uint8_t value2 = 0;
-uint8_t cnt2 = 0;
+uint8_t cnt = 0;
 
 /* USER CODE END PV */
 
@@ -66,9 +73,7 @@ void SystemClock_Config(void);
 void delay_us(uint16_t);
 void HAL_Delay_Porting();
 void SysTic_Init();
-int Ultra1();
-int Ultra2();
-
+int Ultra();
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -87,9 +92,7 @@ int fputc(int ch, FILE* stream)
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-//	uint32_t pwmF;
-//	uint8_t piano = 0;
-//	uint16_t scale[] = {523, 587, 659, 698, 783, 880, 987, 1046};
+
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -113,104 +116,58 @@ int main(void)
   MX_TIM3_Init();
   MX_USART2_UART_Init();
   MX_TIM4_Init();
-  MX_TIM1_Init();
-  MX_TIM10_Init();
+
   /* USER CODE BEGIN 2 */
 	// Timer3 = Ultra1(PB15->Trig1(out), PB14->Echo1(in)) 
-	// Timer1 = Ultra2(PC8->Trig2(out), PC6>Echo2(in))
-
 	// Timer4_ch1  = Motor1(PB6)
-	// Timer10_ch1 = Motor2(PB8)
-	
+
 	/*Ultra1(in)*/
 	TIM3->PSC = 100-1;
 	/*Motor1(in)*/
 	TIM4->PSC = 2000-1;
 	TIM4->ARR = 1000-1;
 	
-	/*Ultra2(out)*/
-	TIM1->PSC = 100-1;
-	/*Motor2(out)*/
-	TIM10->PSC = 2000-1;
-	TIM10->ARR = 1000-1;
-	
-	
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
 	HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_1);
-	HAL_TIM_PWM_Start(&htim10, TIM_CHANNEL_1);
-	HAL_UART_Receive_IT(&huart2, &rxData, 1);
 	HAL_TIM_Base_Start(&htim3);
-  HAL_TIM_Base_Start(&htim1); 	
  
 	while (1)
   {
     /* USER CODE END WHILE */
-		
+		HAL_UART_Receive(&huart2, &rxData, 1, HAL_MAX_DELAY);
+
 		//in
-		int dis1 = Ultra1();
-		printf("dis1 = %d cm\r\n", dis1);
+		int dis = Ultra();
+		printf("dis = %d cm\r\n", dis);
 		HAL_Delay(500);
-		printf("rxData = %d\r\n", rxData);
 
-		if(rxData == '1' && dis1 <= 10)
+		if(rxData == '2' && dis <= 10)
 		{
 			HAL_Delay(100);
-			HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_1);
+			HAL_TIM_PWM_Start(&htim10, TIM_CHANNEL_1); 
 			for(int i = 0; i < 70; i += 2)
 			{
-				TIM4->CCR1 = cnt1;
-				cnt1 = i;
+				TIM10->CCR1 = cnt;
+				cnt = i;
 			}
 			HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, 1);
 			HAL_Delay(3000);
 		}
-		else if(dis1 > 10)
-		{
-			HAL_Delay(100);
-			HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_1);
-			for(int i = 115; i > 0; i -= 10)
-			{
-				TIM4->CCR1 = cnt1;
-				cnt1 = i;
-			}
-			HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, 0);
-		}
-		HAL_Delay(100);
-		
-		//out
-		int dis2 = Ultra2();
-		printf("dis2 = %d cm\r\n", dis2);
-		HAL_Delay(500);
-
-		if(rxData == '2' && dis2 <= 10)
-		{
-			HAL_Delay(100);
-			HAL_TIM_PWM_Start(&htim10, TIM_CHANNEL_1);
-			for(int i = 0; i < 70; i += 2)
-			{
-				TIM10->CCR1 = cnt2;
-				cnt2 = i;
-			}
-			HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, 1);
-			HAL_Delay(3000);
-		}
-		else if(dis2 > 10)
+		else if(dis > 10)
 		{
 			HAL_Delay(100);
 			HAL_TIM_PWM_Start(&htim10, TIM_CHANNEL_1);
 			for(int i = 115; i > 0; i -= 10)
 			{
-				TIM10->CCR1 = cnt2;
-				cnt2 = i;
+				TIM10->CCR1 = cnt;
+				cnt = i;
 			}
 			HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, 0);
 		}
-		HAL_Delay(100);
-		rxData = 0;
-		
+		HAL_Delay(100);		
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
@@ -276,12 +233,14 @@ void SysTic_Init()
 	STK_CTRL = 6;
 	uwTick = 0;
 }
+
 void HAL_Delay_Porting()
 {
 	STK_LOAD = 100000 - 1;
 	STK_CTRL |= 7;
 }
-int Ultra1()
+
+int Ultra()
 {
 	SysTic_Init();
 	HAL_GPIO_WritePin(Trig1_GPIO_Port, Trig1_Pin, 1);
@@ -294,35 +253,13 @@ int Ultra1()
 	STK_CTRL &= ~(1<<ENABLE);
 		
 	/*340m/s - >  340x100cm/1000000us -> 0.034cm/us*/
-	int distance1 = echoTime / 2 * 0.034;
+	int distance = echoTime / 2 * 0.034;
 	//printf("Distance = %d cm \r\n", distance);
 		
 	HAL_Delay_Porting();
 	HAL_Delay(200);
 	
-	return distance1;
-}
-
-int Ultra2()
-{
-	SysTic_Init();
-	HAL_GPIO_WritePin(Trig2_GPIO_Port, Trig2_Pin, 1);
-	delay_us(15); 
-	HAL_GPIO_WritePin(Trig2_GPIO_Port, Trig2_Pin, 0);
-	while (HAL_GPIO_ReadPin(Echo2_GPIO_Port, Echo2_Pin) == 0);
-	STK_CTRL |= (1 << ENABLE); 		
-	while(HAL_GPIO_ReadPin(Echo2_GPIO_Port, Echo2_Pin) == 1);
-	echoTime = HAL_GetTick(); 	
-	STK_CTRL &= ~(1<<ENABLE);
-		
-	/*340m/s - >  340x100cm/1000000us -> 0.034cm/us*/
-	int distance2 = echoTime / 2 * 0.034;
-	//printf("Distance = %d cm \r\n", distance);
-		
-	HAL_Delay_Porting();
-	HAL_Delay(200);
-	
-	return distance2;
+	return distance;
 }
 
 /* USER CODE END 4 */
