@@ -16,26 +16,26 @@ namespace prj_parking
     public partial class login : Form
     {
         MySqlConnection connection;
-        string connectionString = "Server=127.0.0.1;Database=plate;Uid=root;Pwd=1234;";
+        string connectionString = "Server=127.0.0.1;Database=plate;Uid=root;Pwd=1234;";  //mysql 서버 정보
         public login()
         {
             InitializeComponent();
-            loginPW.PasswordChar = '*';
-            connection = new MySqlConnection(connectionString);
+            loginPW.PasswordChar = '*';     //로그인 창 비밀번호 '*' 출력
+            connection = new MySqlConnection(connectionString); //mysql 서버 접속
         }
-        private void loginDB(object sender, EventArgs e)
+        private void loginDB(object sender, EventArgs e) //DB 로그인 함수
         {            
-            string id = loginID.Text;
-            string pw = loginPW.Text;
+            string id = loginID.Text;  // 아이디 입력
+            string pw = loginPW.Text;  // 비밀번호 입력
             try
             {
-                connection.Open();
+                connection.Open();  //mysql 연결
                 if(connection.State == System.Data.ConnectionState.Open)
                 {
-                    if (CheckID_PW(connection, id, pw))
+                    if (CheckID_PW(connection, id, pw)) // 비밀번호 체크함수 호출
                     {
                         MessageBox.Show("MySQL 데이터베이스에 성공적으로 연결되었습니다.", "연결 성공", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        Form num_searching = new num_searching();
+                        Form num_searching = new num_searching(); //주차요금 확인 폼 연결
                         num_searching.Show();
                         this.Hide();
                     }
@@ -61,7 +61,7 @@ namespace prj_parking
                 }
             }
         }
-        private bool CheckID_PW(MySqlConnection connection, string id, string pw)
+        private bool CheckID_PW(MySqlConnection connection, string id, string pw) //비밀번호 체크 함수
         {
             string query = "SELECT COUNT(*) FROM admin_info WHERE ID = @id AND PW = @pw";
             using (MySqlCommand cmd = new MySqlCommand(query, connection))
