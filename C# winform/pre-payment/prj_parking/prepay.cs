@@ -18,7 +18,7 @@ namespace prj_parking
     {
         string selectedCarNumber;
         private MySqlConnection connection;
-        Form num_searchinga = new num_searching();
+        Form num_searchinga = new num_searching(); 
         int cost; // 비용 산출을 위한 변수
         public prepay(string carNumber)
         {
@@ -30,12 +30,7 @@ namespace prj_parking
             //senderSocket.Connect("10.10.23.183", 33331);
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void prepay_Load(object sender, EventArgs e)
+        private void prepay_Load(object sender, EventArgs e) //폼 로드 시 이전 폼에서 선택한 차량의 데이터 표시
         {
             textCarNum.Text = selectedCarNumber;
             DateTime entryTime = GetEntryTime(selectedCarNumber);
@@ -51,7 +46,7 @@ namespace prj_parking
             usageTime.Text = durationStirng;
             parkingFee.Text = cost.ToString("C0");
         }
-        private DateTime GetEntryTime(string carNumber)
+        private DateTime GetEntryTime(string carNumber) //MySQL에서 입차시간 불러오기
         {
             string query = "SELECT entry_time FROM plate WHERE car_num = @carNumber";
             if(connection.State == ConnectionState.Closed)
@@ -64,7 +59,7 @@ namespace prj_parking
                 return (DateTime) comm.ExecuteScalar();
             }
         }
-        private DateTime GetExitTime(string carNumber)
+        private DateTime GetExitTime(string carNumber) //MySQL에서 출차시간 불러오기
         {
             string query = "SELECT pexit_time FROM plate WHERE car_num = @carNumber";
             using (MySqlCommand comm = new MySqlCommand(query, connection))
@@ -75,7 +70,7 @@ namespace prj_parking
                 return Convert.ToDateTime(result);
             }
         }
-        private void socket_connect(object sender, EventArgs e)
+        private void socket_connect(object sender, EventArgs e) // 결제 금액이 있을 경우 결제 데이터를 정산 프로그램에 전송
         {          
             //senderSocket.Connect("10.10.23.183", 33331);
             if (cost <= 0)
