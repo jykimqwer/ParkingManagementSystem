@@ -1,0 +1,161 @@
+D:\개발공부\비주얼스튜디오\c#\prj_parking\prj_parking\bin\Debug\prj_parking.exe.config
+D:\개발공부\비주얼스튜디오\c#\prj_parking\prj_parking\bin\Debug\prj_parking.exe
+D:\개발공부\비주얼스튜디오\c#\prj_parking\prj_parking\bin\Debug\prj_parking.pdb
+D:\개발공부\비주얼스튜디오\c#\prj_parking\prj_parking\obj\Debug\prj_parking.csproj.AssemblyReference.cache
+D:\개발공부\비주얼스튜디오\c#\prj_parking\prj_parking\obj\Debug\prj_parking.login.resources
+D:\개발공부\비주얼스튜디오\c#\prj_parking\prj_parking\obj\Debug\prj_parking.prepay.resources
+D:\개발공부\비주얼스튜디오\c#\prj_parking\prj_parking\obj\Debug\prj_parking.Properties.Resources.resources
+D:\개발공부\비주얼스튜디오\c#\prj_parking\prj_parking\obj\Debug\prj_parking.csproj.GenerateResource.cache
+D:\개발공부\비주얼스튜디오\c#\prj_parking\prj_parking\obj\Debug\prj_parking.csproj.CoreCompileInputs.cache
+D:\개발공부\비주얼스튜디오\c#\prj_parking\prj_parking\obj\Debug\prj_parking.exe
+D:\개발공부\비주얼스튜디오\c#\prj_parking\prj_parking\obj\Debug\prj_parking.pdb
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\prj_parking.exe.config
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\prj_parking.exe
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\prj_parking.pdb
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\Google.Protobuf.dll
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\MySql.Data.dll
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\Renci.SshNet.dll
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\System.Buffers.dll
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\System.Memory.dll
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\Zstandard.Net.dll
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\Google.Protobuf.xml
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\MySql.Data.xml
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\Renci.SshNet.xml
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\System.Buffers.xml
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\System.Memory.xml
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.csproj.AssemblyReference.cache
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.credit_card.resources
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.login.resources
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.num_searching.resources
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.prepay.resources
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.program_start.resources
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.Properties.Resources.resources
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.csproj.GenerateResource.cache
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.csproj.CoreCompileInputs.cache
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.csproj.CopyComplete
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.exe
+C:\Users\jykim\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.pdb
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\prj_parking.exe.config
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\prj_parking.exe
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\prj_parking.pdb
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\Google.Protobuf.dll
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\MySql.Data.dll
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\Renci.SshNet.dll
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\System.Buffers.dll
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\System.Memory.dll
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\Zstandard.Net.dll
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\Google.Protobuf.xml
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\MySql.Data.xml
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\Renci.SshNet.xml
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\System.Buffers.xml
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\System.Memory.xml
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.csproj.AssemblyReference.cache
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.csproj.SuggestedBindingRedirects.cache
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.credit_card.resources
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.login.resources
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.num_searching.resources
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.prepay.resources
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.program_start.resources
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.Properties.Resources.resources
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.csproj.GenerateResource.cache
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.csproj.CoreCompileInputs.cache
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.csproj.CopyComplete
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.exe
+C:\Users\PROCESSOR\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.pdb
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.csproj.AssemblyReference.cache
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.login.resources
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.num_searching.resources
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.prepay.resources
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.Properties.Resources.resources
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.csproj.GenerateResource.cache
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.csproj.CoreCompileInputs.cache
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.exe
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.pdb
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\prj_parking.exe.config
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\prj_parking.exe
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\prj_parking.pdb
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\Google.Protobuf.dll
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\MySql.Data.dll
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\Renci.SshNet.dll
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\System.Buffers.dll
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\System.Memory.dll
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\Zstandard.Net.dll
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\Google.Protobuf.xml
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\MySql.Data.xml
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\Renci.SshNet.xml
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\System.Buffers.xml
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\System.Memory.xml
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\EMBEDDED\Desktop\머신러닝 프로젝트\prj_parking\prj_parking\obj\Debug\prj_parking.csproj.CopyComplete
+C:\Users\jykim\Desktop\prj_parking\prj_parking\bin\Debug\prj_parking.exe.config
+C:\Users\jykim\Desktop\prj_parking\prj_parking\bin\Debug\prj_parking.exe
+C:\Users\jykim\Desktop\prj_parking\prj_parking\bin\Debug\prj_parking.pdb
+C:\Users\jykim\Desktop\prj_parking\prj_parking\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\jykim\Desktop\prj_parking\prj_parking\bin\Debug\Google.Protobuf.dll
+C:\Users\jykim\Desktop\prj_parking\prj_parking\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\jykim\Desktop\prj_parking\prj_parking\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\jykim\Desktop\prj_parking\prj_parking\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\jykim\Desktop\prj_parking\prj_parking\bin\Debug\MySql.Data.dll
+C:\Users\jykim\Desktop\prj_parking\prj_parking\bin\Debug\Renci.SshNet.dll
+C:\Users\jykim\Desktop\prj_parking\prj_parking\bin\Debug\System.Buffers.dll
+C:\Users\jykim\Desktop\prj_parking\prj_parking\bin\Debug\System.Memory.dll
+C:\Users\jykim\Desktop\prj_parking\prj_parking\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\jykim\Desktop\prj_parking\prj_parking\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\jykim\Desktop\prj_parking\prj_parking\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\jykim\Desktop\prj_parking\prj_parking\bin\Debug\Zstandard.Net.dll
+C:\Users\jykim\Desktop\prj_parking\prj_parking\bin\Debug\Google.Protobuf.xml
+C:\Users\jykim\Desktop\prj_parking\prj_parking\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\jykim\Desktop\prj_parking\prj_parking\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\jykim\Desktop\prj_parking\prj_parking\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\jykim\Desktop\prj_parking\prj_parking\bin\Debug\MySql.Data.xml
+C:\Users\jykim\Desktop\prj_parking\prj_parking\bin\Debug\Renci.SshNet.xml
+C:\Users\jykim\Desktop\prj_parking\prj_parking\bin\Debug\System.Buffers.xml
+C:\Users\jykim\Desktop\prj_parking\prj_parking\bin\Debug\System.Memory.xml
+C:\Users\jykim\Desktop\prj_parking\prj_parking\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\jykim\Desktop\prj_parking\prj_parking\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\jykim\Desktop\prj_parking\prj_parking\obj\Debug\prj_parking.csproj.AssemblyReference.cache
+C:\Users\jykim\Desktop\prj_parking\prj_parking\obj\Debug\prj_parking.login.resources
+C:\Users\jykim\Desktop\prj_parking\prj_parking\obj\Debug\prj_parking.num_searching.resources
+C:\Users\jykim\Desktop\prj_parking\prj_parking\obj\Debug\prj_parking.prepay.resources
+C:\Users\jykim\Desktop\prj_parking\prj_parking\obj\Debug\prj_parking.Properties.Resources.resources
+C:\Users\jykim\Desktop\prj_parking\prj_parking\obj\Debug\prj_parking.csproj.GenerateResource.cache
+C:\Users\jykim\Desktop\prj_parking\prj_parking\obj\Debug\prj_parking.csproj.CoreCompileInputs.cache
+C:\Users\jykim\Desktop\prj_parking\prj_parking\obj\Debug\prj_parking.csproj.CopyComplete
+C:\Users\jykim\Desktop\prj_parking\prj_parking\obj\Debug\prj_parking.exe
+C:\Users\jykim\Desktop\prj_parking\prj_parking\obj\Debug\prj_parking.pdb
+C:\Users\jykim\Desktop\prj_parking\prj_parking\obj\Debug\prj_parking.payment.resources
