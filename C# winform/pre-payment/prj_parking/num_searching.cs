@@ -23,9 +23,9 @@ namespace prj_parking
             InitializeComponent();
             connection = new MySqlConnection(connectionString);
         }
-        private void button10_Click(object sender, EventArgs e)
+        private void button10_Click(object sender, EventArgs e) // 클릭한 번호를 텍스트 창에 하나씩 표시해 MYSQL에서 일치하는 차량 데이터를 출력하는 함수
         {
-            input = textBox1.Text + textBox2.Text + textBox3.Text + textBox4.Text;
+            input = textBox1.Text + textBox2.Text + textBox3.Text + textBox4.Text; // 클릭한 4자리 번호를 한자리씩 텍스트 박스에 표시하고, 4자리 번호를 Input 객체에 저장.
             string query = "SELECT * FROM plate WHERE RIGHT(car_num, 4) = @input";
             if (connection.State == ConnectionState.Closed)
             {
@@ -37,7 +37,7 @@ namespace prj_parking
                 using (MySqlDataReader reader = command.ExecuteReader())
                 {
                     listView1.Items.Clear(); 
-                    while(reader.Read())
+                    while(reader.Read()) //입력된 4자리 번호와 일치하는 차량 데이터를 모두 리스트뷰에 표시
                     {
                         ListViewItem item = new ListViewItem(reader["car_num"].ToString());
                         item.SubItems.Add(reader["entry_time"].ToString());
@@ -46,14 +46,14 @@ namespace prj_parking
                 }  
             }
         }
-        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e) // 검색된 차량 번호를 선택
         {
             if(listView1.SelectedItems.Count > 0)
             {
                 selectedCarNumber = listView1.SelectedItems[0].Text;
             }
         }
-        private void insert_number(int number)
+        private void insert_number(int number) // 차량 번호 입력
         {
             if (textBox1.Text.Length == 0)
             {
@@ -99,7 +99,7 @@ namespace prj_parking
         //        }
         //    }
         
-        private void button13_Click(object sender, EventArgs e)
+        private void button13_Click(object sender, EventArgs e) //사전 정산 시 사전정산 출차시간 데이터를 MySQL로 전송
         {
             if (!string.IsNullOrEmpty(selectedCarNumber))
             {
@@ -135,7 +135,7 @@ namespace prj_parking
                 MessageBox.Show("차량을 선택하세요."); // 선택된 차량 번호가 없을 때 메시지 표시
             }
         }
-        private void button12_Click(object sender, EventArgs e)
+        private void button12_Click(object sender, EventArgs e) // 창 초기화
         {
             textBox1.Text = "";
             textBox2.Text = "";
@@ -144,7 +144,7 @@ namespace prj_parking
             input = "";
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e) //0~9까지 번호 입력 시작
         {
             insert_number(1);
         }
@@ -189,7 +189,7 @@ namespace prj_parking
             insert_number(9);
         }
 
-        private void button11_Click(object sender, EventArgs e)
+        private void button11_Click(object sender, EventArgs e) //0~9까지 번호 입력 끝
         {
             insert_number(0);
         }
