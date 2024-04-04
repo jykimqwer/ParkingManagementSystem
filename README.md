@@ -11,7 +11,7 @@
 
 # 시연영상
 
-[![IMAGE ALT TEXT HERE] ([https://www.youtube.com/watch?v=g3SmT2Eb09A](https://youtu.be/g3SmT2Eb09A?feature=shared)/0.jpg)([https://www.youtube.com/watch?v=g3SmT2Eb09A](https://youtu.be/g3SmT2Eb09A?feature=shared))
+[![Video Label](http://img.youtube.com/vi/g3SmT2Eb09A/0.jpg)](https://www.youtu.be/g3SmT2Eb09A)
 
 ### **팀 구성**
 | 이름 | 메인 업무 |
