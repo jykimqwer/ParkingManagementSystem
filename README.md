@@ -14,7 +14,20 @@
 [![Video Label](http://img.youtube.com/vi/g3SmT2Eb09A/0.jpg)](https://youtu.be/g3SmT2Eb09A)
 
 ## 구현화면(관리자 화면)
-
+* 차량번호을 이용한 데이터 조회
+![차량조회 ](https://github.com/jykimqwer/ParkingManagementSystem/assets/161539858/78d925bd-528d-4edb-90d7-ac92f8b77f17)
+* 당일 데이터 조회
+![당일조회](https://github.com/jykimqwer/ParkingManagementSystem/assets/161539858/8880473c-b6ed-4726-9181-b1e42591cb54)
+* 월별 데이터 조회
+![월별조회](https://github.com/jykimqwer/ParkingManagementSystem/assets/161539858/742ebe6a-c944-418e-90a4-580e69642301)
+* 연도별 데이터 조회
+![연도별조회](https://github.com/jykimqwer/ParkingManagementSystem/assets/161539858/a2471d40-bcf5-42d5-ad6f-71eb2f347deb)
+* 기간별 데이터 조회
+![기간조회](https://github.com/jykimqwer/ParkingManagementSystem/assets/161539858/be411f72-d4fc-4c1c-bf82-7651d94d9b5d)
+* Excel로 열기
+![엑셀저장](https://github.com/jykimqwer/ParkingManagementSystem/assets/161539858/3b71d04f-04a6-4ac9-a21e-7a0c1a1f892b)
+* 인쇄하기
+![인쇄화면](https://github.com/jykimqwer/ParkingManagementSystem/assets/161539858/ad5f3bf8-d732-4fb4-bda0-8d66514b14b7)
 
 ### **팀 구성**
 | 이름 | 메인 업무 |
