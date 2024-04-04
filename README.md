@@ -9,6 +9,10 @@
  
  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=plastic&logo=opencv&logoColor=white"><img src="https://img.shields.io/badge/MySQL-4479A1?style=plastic&logo=mysql&logoColor=white"><img src="https://img.shields.io/badge/.NET-512BD4?style=plastic&logo=.NET&logoColor=white"><img src="https://img.shields.io/badge/Notion-000000?style=plastic&logo=Notion&logoColor=white"> <img src="https://img.shields.io/badge/NuGet-004880?style=plastic&logo=NuGet&logoColor=white"><img src="https://img.shields.io/badge/Arm Keil-394049?style=plastic&logo=armKEIL&logoColor=white"> </div>
 
+# 시연영상
+
+[![Video Label](https://youtu.be/g3SmT2Eb09A)
+
 ### **팀 구성**
 | 이름 | 메인 업무 |
 |:--:|:--:|
@@ -147,4 +151,4 @@
 
 
 
-# 시연영상
+
