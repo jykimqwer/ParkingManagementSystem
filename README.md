@@ -9,6 +9,18 @@
  
  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=plastic&logo=opencv&logoColor=white"><img src="https://img.shields.io/badge/MySQL-4479A1?style=plastic&logo=mysql&logoColor=white"><img src="https://img.shields.io/badge/.NET-512BD4?style=plastic&logo=.NET&logoColor=white"><img src="https://img.shields.io/badge/Notion-000000?style=plastic&logo=Notion&logoColor=white"> <img src="https://img.shields.io/badge/NuGet-004880?style=plastic&logo=NuGet&logoColor=white"><img src="https://img.shields.io/badge/Arm Keil-394049?style=plastic&logo=armKEIL&logoColor=white"> </div>
 
+ # 📆 프로젝트 범위 및 계획   
+ ### In Scope:
+  * YOLO5 학습 모델을 이용하여 화상 카메라를 통한 차량 번호판 인식
+  * UART 통신을 수신하여 차단기(서보모터) 제어
+  * 데이터베이스 서버 공유
+
+ ### Out of Scope:
+   * YOLO5 모델 최적화
+   * 다양한 번호판 인식
+   * 라즈베리파이에 구현
+   * LCD 구현
+
 # 시연영상
 
 [![Video Label](http://img.youtube.com/vi/g3SmT2Eb09A/0.jpg)](https://youtu.be/g3SmT2Eb09A)
@@ -44,18 +56,6 @@
 
 ### Assumptions:   
  * Python을 사용함에 따라 C/C++ 언어 사용 대비 상대적 딜레이가 발생할 수 있습니다.   
-
- # 📆 프로젝트 범위 및 계획   
- ### In Scope:
-  * YOLO5 학습 모델을 이용하여 화상 카메라를 통한 차량 번호판 인식
-  * UART 통신을 수신하여 차단기(서보모터) 제어
-  * 데이터베이스 서버 공유
-
- ### Out of Scope:
-   * YOLO5 모델 최적화
-   * 다양한 번호판 인식
-   * 라즈베리파이에 구현
-   * LCD 구현
 
  ### Kanban
 
