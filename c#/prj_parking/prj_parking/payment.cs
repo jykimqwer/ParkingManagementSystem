@@ -34,7 +34,7 @@ namespace prj_parking
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("결제되었습니다.", "결제");
-            senderSocket.Connect("192.168.200.103", 33332);
+            senderSocket.Connect("127.0.0.1", 33332);
             string costString = cost.ToString().Replace(CultureInfo.CurrentCulture.NumberFormat.CurrencySymbol, "");
             string carNumString = carNumber;
             string sendData = $"{carNumString},{costString}";

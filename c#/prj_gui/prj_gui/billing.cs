@@ -169,7 +169,7 @@ namespace prj_gui
                         serial();
                     }
                 });
-                await Task.Delay(5000); // 텍스트 5초간 표시
+                await Task.Delay(10000); // 텍스트 5초간 표시
                 // 폼에 표시된 데이터를 데이터베이스에 저장.
                 string query = "INSERT INTO cplate(car_num, entry_time, exit_time, usage_time, parking_fee) VALUES(@carNum, @entryTime, @exitTime, @usageTime, @parkingFee)";
                 if (connection.State != ConnectionState.Open)
@@ -197,7 +197,7 @@ namespace prj_gui
             {
                 try
                 {
-                    TcpListener listener = new TcpListener(IPAddress.Parse("10.10.23.82"), 33333);
+                    TcpListener listener = new TcpListener(IPAddress.Parse("localhost"), 33333);
                     listener.Start();
                     //client = listener.AcceptTcpClient();
                     while (true)
@@ -229,7 +229,7 @@ namespace prj_gui
             {
                 try
                 {
-                    TcpListener listener = new TcpListener(IPAddress.Parse("10.10.23.82"), 33332);
+                    TcpListener listener = new TcpListener(IPAddress.Parse("127.0.0.1"), 33332);
                     listener.Start();
                     while (true)
                     {

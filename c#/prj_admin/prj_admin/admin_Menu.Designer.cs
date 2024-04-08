@@ -118,7 +118,7 @@
             this.saveExcel.Name = "saveExcel";
             this.saveExcel.Size = new System.Drawing.Size(167, 45);
             this.saveExcel.TabIndex = 5;
-            this.saveExcel.Text = "excel 저장";
+            this.saveExcel.Text = "excel 열기";
             this.saveExcel.UseVisualStyleBackColor = true;
             this.saveExcel.Click += new System.EventHandler(this.button5_Click);
             // 

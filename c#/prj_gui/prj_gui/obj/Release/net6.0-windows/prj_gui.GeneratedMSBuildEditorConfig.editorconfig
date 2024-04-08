@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = prj_gui
-build_property.ProjectDir = C:\Users\user\Source\Repos\ParkingManagementSystem\c#\prj_gui\prj_gui\
+build_property.ProjectDir = C:\Users\user\Desktop\c#\prj_gui\prj_gui\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

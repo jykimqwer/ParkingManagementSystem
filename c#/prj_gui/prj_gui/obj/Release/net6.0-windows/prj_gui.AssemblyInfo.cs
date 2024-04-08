@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("prj_gui")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ee67f7d36540457cc6e27bdcc6ff9a0a0a98fc4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("prj_gui")]
 [assembly: System.Reflection.AssemblyTitleAttribute("prj_gui")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

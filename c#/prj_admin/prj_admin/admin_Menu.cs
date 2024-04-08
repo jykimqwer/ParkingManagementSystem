@@ -20,6 +20,7 @@ using Renci.SshNet;
 using System.ComponentModel.Design;
 using MySql.Data.MySqlClient.Authentication;
 using System.IO.Ports;
+using Google.Protobuf.WellKnownTypes;
 
 namespace prj_admin
 {
@@ -37,7 +38,7 @@ namespace prj_admin
             this.conn = conn;
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)  
         {
             string carNumber = carNumberText.Text;
             string car_query = "SELECT * FROM cplate WHERE car_num = @carNumber";
@@ -96,13 +97,18 @@ namespace prj_admin
             {
                 for (int j = 0; j < datagridview.Columns.Count; j++)
                 {
-                    worksheet.Cells[i + 2, j + 1] = datagridview.Rows[i].Cells[j].Value.ToString();
+                    if (datagridview.Rows[i].Cells[j].Value != null && datagridview.Rows[i].Cells[j] != null)
+                    {
+                        worksheet.Cells[i + 2, j + 1] = datagridview.Rows[i].Cells[j].Value.ToString();
+
+                    }
+                    else
+                    {
+                        worksheet.Cells[i + 2, j + 1] = "";
+                    }
+                    //worksheet.Cells[i + 2, j + 1] = datagridview.Rows[i].Cells[j].Value.ToString();
                 }
             }
-            // 저장할 파일 경로 설정
-            string filename = "c:\\users\\username\\documents\\data.xlsx"; // 파일 경로 및 이름을 원하는 대로 수정하세요
-            // 엑셀 파일 저장
-            workbook.SaveAs(filename);
         }
         private void MySql_data(string query) //Mysql_data (총사용량 조회탭)
         {
@@ -312,12 +318,13 @@ namespace prj_admin
         }
         private void button5_Click(object sender, EventArgs e)
         {
-            //saveToExcel(dataGridView2);
+            saveToExcel(dataGridView2);
         }
         private void button6_Click(object sender, EventArgs e)
         {
             PrintDataGridView(dataGridView2);
         }
+
         private void button7_Click(object sender, EventArgs e)//종료(총사용량 조회탭)
         {
             this.Close();

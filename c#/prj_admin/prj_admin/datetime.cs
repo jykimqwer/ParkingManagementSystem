@@ -13,6 +13,7 @@ namespace prj_admin
     public partial class datetime : Form
     {
         public event EventHandler<DateRangeSelectedEventArgs> DateRangeSelected;
+        private admin_Menu adMin;
         public datetime()
         {
             InitializeComponent();
@@ -47,7 +48,6 @@ namespace prj_admin
         }
         private void button2_Click(object sender, EventArgs e)
         {
-            Form adMin = new admin_Menu();
             adMin.Show();
             this.Close();
         }
