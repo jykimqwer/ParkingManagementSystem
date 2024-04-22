@@ -26,7 +26,7 @@
 [![Video Label](http://img.youtube.com/vi/g3SmT2Eb09A/0.jpg)](https://youtu.be/g3SmT2Eb09A)
 
 ## 구현화면(관리자 화면)
-* 차량번호을 이용한 데이터 조회
+* 차량번호를 이용한 데이터 조회
 ![차량조회 ](https://github.com/jykimqwer/ParkingManagementSystem/assets/161539858/78d925bd-528d-4edb-90d7-ac92f8b77f17)
 * 당일 데이터 조회
 ![당일조회](https://github.com/jykimqwer/ParkingManagementSystem/assets/161539858/8880473c-b6ed-4726-9181-b1e42591cb54)
