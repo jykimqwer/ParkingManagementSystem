@@ -211,6 +211,9 @@ gantt
 * 공통
     1. Backlog 구현 테스트 및 Bug Fix
     2. 프로젝트 종료
+ 
+# 🗒️참고 자료
+https://github.com/gyupro/EasyKoreanLpDetector
 
 # ❗Issue Management
 | 이슈사항 | 해결방안 |
