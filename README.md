@@ -212,9 +212,6 @@ gantt
     1. Backlog 구현 테스트 및 Bug Fix
     2. 프로젝트 종료
  
-# 🗒️참고 자료
-https://github.com/gyupro/EasyKoreanLpDetector
-
 # ❗Issue Management
 | 이슈사항 | 해결방안 |
 |--|--|
@@ -222,6 +219,9 @@ https://github.com/gyupro/EasyKoreanLpDetector
 |출차 시 정산 관련 데이터를 실시간으로 받지 못함| 비동기 호출을 사용해 데이터를 보낸 시점에 데이터 수신 |
 |MySQL로 데이터 전송 시 전송 방식 관련 오류| MySQL 테이블 복제 후 MySQL 서버 재구축 |
 |입출차 시 번호판 감지가 제대로 되었으나, MySQL 서버에 정확한 데이터가 전송되지 않음| 입출차 함수 실행 시 쓰레드를 사용해 구동 |
+
+# 🗒️참고 자료
+https://github.com/gyupro/EasyKoreanLpDetector
 
 
 
